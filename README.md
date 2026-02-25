@@ -1,4 +1,4 @@
-🌦 Weather Forecast Desktop App
+## 🌦 Weather Forecast Desktop App
 
 A Python-based desktop weather application with a clean graphical interface that displays real-time weather information using API integration.
 
