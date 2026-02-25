@@ -1,26 +1,43 @@
-# 🌦️ Weather Forecast App (Using Python)
+🌦 Weather Forecast Desktop App
 
-A simple desktop weather application built using Python and Tkinter.
+A Python-based desktop weather application with a clean graphical interface that displays real-time weather information using API integration.
 
-## Features
-- Get real-time weather data using API
-- Manual city input
-- Auto location detection
-- Clean and user-friendly interface
-- Displays temperature, humidity, condition and wind speed
+## 🚀 Features
+- Real-time weather data using OpenWeatherMap API
+- Auto-detect user location
+- Manual city search option
+- Displays temperature, humidity, weather condition and wind speed
+- Clean and user-friendly GUI
+- Background image support
+- Built using Tkinter
 
-## Technologies Used
+## 🛠 Tech Stack
 - Python
 - Tkinter (GUI)
-- OpenWeatherMap API
 - Requests library
+- Pillow (for image handling)
+- OpenWeatherMap API
 
-## How to Run
-1. Install Python
-2. Install requests library:
-   pip install requests
-3. Run the app:
-   py weather_ui.py
+## ▶ How to Run
+1. Install Python  
+2. Install required libraries:
 
-## Author
-Created by: Your Name
+```bash
+pip install requests pillow
+```
+
+3. Create a `config.py` file and add your API key:
+
+```python
+api_key = "YOUR_API_KEY"
+```
+
+4. Run the application:
+
+```bash
+py weather_ui.py
+```
+
+## 👩‍💻 Author
+
+Created by: Agrani Anupam
